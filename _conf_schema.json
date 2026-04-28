@@ -1,0 +1,13 @@
+{
+  "auth_key": {
+    "type": "string",
+    "description": "API 鉴权 Key",
+    "hint": "请从布吉岛官网获取"
+  },
+  "cache_duration": {
+    "type": "int",
+    "description": "查询缓存时长（秒）",
+    "default": 3600,
+    "slider": {"min": 0, "max": 86400, "step": 300}
+  }
+}
